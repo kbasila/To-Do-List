@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My To-Do List App</title>
+
+	<link rel="stylesheet" href="style.css" />
+	<script src="main.js"></script>
+	
+</head>
+<body>
+	
+	<header><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	 <!--THIS IS TO-DO LIST INTRODUCTION WITH QUOTES FROM DE.SHALLUA-->
+	 <div class="todo">
+		<h1><b>My To-Do List for 2023</b></h1>
+		<h6><i><b>"To stay focused means that the daily to-do list comes from goals that are generated from the personal or institutional vision and mission" <br>-DR.LUCAS D. SHALLUA<i></b><h6>
+	 </div><br><br><br>
+	 
+	 <!--THIS IS WHERE YOU WILL INPUT YOUR TASK-->
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="WHAT'S IN YOUR MIND?" />
+			<input 
+				type="submit"
+				id="new-task-submit"
+				value="Create"/>
+		</form>
+	</header>
+	
+	<!-- ONCE YOU CLICK THE "CREATE", YOUR ACTIVITY WILL POP UP ON THIS SECTION-->
+	<main>
+	  <br>
+		<section class="task-list">
+			<h2><b>List Of Your Tasks</b></h2>
+			<h6><b>"You can do it! Fighting and always do your best. I'm rooting for you!"<b></h6><br>
+
+			<div id="tasks">
+
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							readonly>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+
+</body>
+</html>
